@@ -1,0 +1,32 @@
+.App {
+  margin: 10px;
+}
+.App body {
+  background-color: #e4f1fe;
+}
+
+.App h1 {
+  color: #323643;
+  font-family: "IBM Plex Sans", sans-serif;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.App ul {
+  color: #606470;
+  margin: 0;
+  padding: 0;
+}
+
+.App li {
+  font-family: "Frank Ruhl Libre", serif;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #34495e;
+  line-height: 1.4;
+  letter-spacing: 0.8px;
+}
+.App li::first-letter {
+  text-transform: capitalize;
+}

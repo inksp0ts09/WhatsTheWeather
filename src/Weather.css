@@ -1,0 +1,72 @@
+.App .Weather {
+  max-width: 800px;
+  margin: 30px auto;
+  display: block;
+}
+.App .weather-app {
+  display: block;
+  padding: 25px;
+  padding-bottom: 30px;
+  border: solid 1px #d9dad7;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.App .temp {
+  position: relative;
+  left: 8px;
+  bottom: -3px;
+  font-family: "Chivo", sans-serif;
+  font-size: x-large;
+}
+.App .temp-number {
+  font-size: 80px;
+  padding: 0px;
+}
+
+.App .fahrenheit {
+  color: grey;
+  position: relative;
+  bottom: 40px;
+  left: -2px;
+}
+
+.App .main-icon {
+  position: relative;
+  bottom: 13px;
+}
+
+.App .weather-forecast {
+  text-align: center;
+}
+.App .weather-forecast-date {
+  font-size: 16px;
+  color: #323643;
+  opacity: 0.7;
+}
+.App .weather-forecast-temp {
+  font-size: 13px;
+}
+.App .weather-forecast-low {
+  opacity: 0.5;
+  font-family: "Chivo", sans-serif;
+}
+.App .weather-forecast-high {
+  font-weight: bold;
+  font-family: "Chivo", sans-serif;
+}
+.App .form-control {
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #f7f7f7;
+}
+.App .Search {
+  margin-bottom: 10px;
+}
+.App .btn {
+  font-weight: 700;
+  font-size: 16px;
+  padding: 10px 0;
+  border: none;
+  height: 47px;
+}
